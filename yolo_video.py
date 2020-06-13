@@ -163,7 +163,7 @@ while True:
 				# sending the mail
 				msg+=1
 				if msg==2: 
-					s.sendmail("ritik.posh@gmail.com", "ableabhinav@gmail.com", message)
+					s.sendmail("enter your mail id here", message)
 				print("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 				file=open('fallInfo1.txt','a')
 				file.write(f"Fall_Detected{time.time()}-Fall-Alert{fno}.jpg\n")
